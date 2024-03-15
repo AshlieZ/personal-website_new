@@ -14,14 +14,11 @@ function App() {
     <>
       <section className="h-screen w-[80%] flex mx-auto items-center">
         <div className="h-auto flex flex-row sm:flex-col-reverse space-x-10 sm:space-x-0 ">
-          <div className="flex flex-col justify-center space-y-5 text-base">
+          <div className="flex flex-col justify-center space-y-5 text-base w-[80%]">
             {/* TODO 1: Edit the content of these tags!*/}
-            <h1>Hi! I'm ______</h1>
+            <h1>Hi! I&rsquo;m Ashlie</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vestibulum ac ante eget arcu ultrices eleifend. Curabitur
-              tincidunt, quam non consequat cursus, nibh velit ultricies lorem,
-              et accumsan augue justo a diam.
+              I am a first-year student at Cornell studying Computer Science.
             </p>
             <div className="flex flex-row items-center space-x-2">
               <img src={location} />
@@ -29,21 +26,21 @@ function App() {
             </div>
             <div className="flex flex-row items-center">
               <div className="h-2 w-2 bg-green-500 rounded-full mr-2"></div>
-              <p>Avaliable for new projects</p>
+              <p>Available for new projects</p>
             </div>
 
             {/* TODO 2: Change the links of these tags to link to your socials! */}
             <div className="flex flex-row h-10 space-x-2">
-              <a href="">
+              <a href="https://github.com/AshlieZ" target="_blank" rel="noreferrer">
                 <img src={githublogo} />
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/ashlie_zhang/" target="_blank" rel="noreferrer">
                 <img src={instalogo} />
               </a>
-              <a href="">
+              <a href="https://www.figma.com/files/user/1291531237070762715?fuid=1291531237070762715" target="_blank" rel="noreferrer">
                 <img src={figmalogo} />
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/in/ashlie-zhang-8982b7296/" target="_blank" rel="noreferrer">
                 <img src={linkedinlogo} />
               </a>
             </div>
